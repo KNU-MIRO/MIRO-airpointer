@@ -136,9 +136,9 @@ void loop(){                                   // Main Loop Proc
                     Mouse.click(MOUSE_LEFT);
                     break;
                 case DATA_BACKPAGE:
-                    Keyboard.press('p');
+                    Keyboard.press(0xD8);
                     delay(key_press_delay);
-                    Keyboard.release('p');
+                    Keyboard.release(0xD8);
                     break;
                 // Motion controll section
                 case DATA_MOTION:                                       
